@@ -1,0 +1,418 @@
+created:
+    - app/Http/Controllers/AccesoController.php
+    - app/Http/Controllers/AccionesController.php
+    - app/Http/Controllers/AvisosController.php
+    - app/Http/Controllers/EmpresasController.php
+    - app/Http/Controllers/EstudiosController.php
+    - app/Http/Controllers/BeneficiarioController.php
+    - app/Http/Controllers/ConductasocialController.php
+    - app/Http/Controllers/CreditosController.php
+    - app/Http/Controllers/DespidosController.php
+    - app/Http/Controllers/DeudasController.php
+    - app/Http/Controllers/DocumentacionController.php
+    - app/Http/Controllers/DomicilioController.php
+    - app/Http/Controllers/EntornohabitacionalController.php
+    - app/Http/Controllers/EstructurafamiliarController.php
+    - app/Http/Controllers/HistoriallaboralController.php
+    - app/Http/Controllers/HobbyController.php
+    - app/Http/Controllers/IncapacidadController.php
+    - app/Http/Controllers/InfolaboralController.php
+    - app/Http/Controllers/InfonavitController.php
+    - app/Http/Controllers/NivelacademicoController.php
+    - app/Http/Controllers/PeriodoController.php
+    - app/Http/Controllers/ProblemasController.php
+    - app/Http/Controllers/RedesController.php
+    - app/Http/Controllers/RefelaboralesController.php
+    - app/Http/Controllers/RefepersonalesController.php
+    - app/Http/Controllers/ResumenController.php
+    - app/Http/Controllers/SaludController.php
+    - app/Http/Controllers/ServiciomedicoController.php
+    - app/Http/Controllers/SituacionController.php
+    - app/Http/Controllers/BienesinmueblesController.php
+    - app/Http/Controllers/ConclusionesController.php
+    - app/Http/Controllers/CuentasinversionesController.php
+    - app/Http/Controllers/DocumentospresentadosController.php
+    - app/Http/Controllers/EgresofamiliaresController.php
+    - app/Http/Controllers/EntornosController.php
+    - app/Http/Controllers/VehiculosController.php
+    - app/Http/Controllers/GradoEstudiosController.php
+    - app/Http/Controllers/IngresofamiliarController.php
+    - app/Http/Controllers/InvestigacionesController.php
+    - app/Http/Controllers/SegurosController.php
+    - database/factories/AccesoFactory.php
+    - database/factories/AccionesFactory.php
+    - database/factories/AvisosFactory.php
+    - database/factories/EmpresasFactory.php
+    - database/factories/EstudiosFactory.php
+    - database/factories/BeneficiarioFactory.php
+    - database/factories/ConductasocialFactory.php
+    - database/factories/CreditosFactory.php
+    - database/factories/DespidosFactory.php
+    - database/factories/DeudasFactory.php
+    - database/factories/DocumentacionFactory.php
+    - database/factories/DomicilioFactory.php
+    - database/factories/EntornohabitacionalFactory.php
+    - database/factories/EstructurafamiliarFactory.php
+    - database/factories/HistoriallaboralFactory.php
+    - database/factories/HobbyFactory.php
+    - database/factories/IncapacidadFactory.php
+    - database/factories/InfolaboralFactory.php
+    - database/factories/InfonavitFactory.php
+    - database/factories/NivelacademicoFactory.php
+    - database/factories/PeriodoFactory.php
+    - database/factories/ProblemasFactory.php
+    - database/factories/RedesFactory.php
+    - database/factories/RefelaboralesFactory.php
+    - database/factories/RefepersonalesFactory.php
+    - database/factories/ResumenFactory.php
+    - database/factories/SaludFactory.php
+    - database/factories/ServiciomedicoFactory.php
+    - database/factories/SituacionFactory.php
+    - database/factories/BienesinmueblesFactory.php
+    - database/factories/ConclusionesFactory.php
+    - database/factories/CuentasinversionesFactory.php
+    - database/factories/DocumentospresentadosFactory.php
+    - database/factories/EgresofamiliaresFactory.php
+    - database/factories/EntornosFactory.php
+    - database/factories/VehiculosFactory.php
+    - database/factories/GradoEstudiosFactory.php
+    - database/factories/IngresofamiliarFactory.php
+    - database/factories/InvestigacionesFactory.php
+    - database/factories/SegurosFactory.php
+    - database/migrations/2024_12_18_140750_create_accesos_table.php
+    - database/migrations/2024_12_18_140751_create_acciones_table.php
+    - database/migrations/2024_12_18_140752_create_avisos_table.php
+    - database/migrations/2024_12_18_140753_create_empresas_table.php
+    - database/migrations/2024_12_18_140754_create_estudios_table.php
+    - database/migrations/2024_12_18_140755_create_beneficiarios_table.php
+    - database/migrations/2024_12_18_140756_create_conductasocials_table.php
+    - database/migrations/2024_12_18_140757_create_creditos_table.php
+    - database/migrations/2024_12_18_140758_create_despidos_table.php
+    - database/migrations/2024_12_18_140759_create_deudas_table.php
+    - database/migrations/2024_12_18_140800_create_documentacions_table.php
+    - database/migrations/2024_12_18_140801_create_domicilios_table.php
+    - database/migrations/2024_12_18_140802_create_entornohabitacionals_table.php
+    - database/migrations/2024_12_18_140803_create_estructurafamiliars_table.php
+    - database/migrations/2024_12_18_140804_create_historiallaborals_table.php
+    - database/migrations/2024_12_18_140805_create_hobbies_table.php
+    - database/migrations/2024_12_18_140806_create_incapacidads_table.php
+    - database/migrations/2024_12_18_140807_create_infolaborals_table.php
+    - database/migrations/2024_12_18_140808_create_infonavits_table.php
+    - database/migrations/2024_12_18_140809_create_nivelacademicos_table.php
+    - database/migrations/2024_12_18_140810_create_periodos_table.php
+    - database/migrations/2024_12_18_140811_create_problemas_table.php
+    - database/migrations/2024_12_18_140812_create_redes_table.php
+    - database/migrations/2024_12_18_140813_create_refelaborales_table.php
+    - database/migrations/2024_12_18_140814_create_refepersonales_table.php
+    - database/migrations/2024_12_18_140815_create_resumens_table.php
+    - database/migrations/2024_12_18_140816_create_saluds_table.php
+    - database/migrations/2024_12_18_140817_create_serviciomedicos_table.php
+    - database/migrations/2024_12_18_140818_create_situacions_table.php
+    - database/migrations/2024_12_18_140819_create_bienesinmuebles_table.php
+    - database/migrations/2024_12_18_140820_create_conclusiones_table.php
+    - database/migrations/2024_12_18_140821_create_cuentasinversiones_table.php
+    - database/migrations/2024_12_18_140822_create_documentospresentados_table.php
+    - database/migrations/2024_12_18_140823_create_egresofamiliares_table.php
+    - database/migrations/2024_12_18_140824_create_entornos_table.php
+    - database/migrations/2024_12_18_140825_create_vehiculos_table.php
+    - database/migrations/2024_12_18_140826_create_grado_estudios_table.php
+    - database/migrations/2024_12_18_140827_create_ingresofamiliars_table.php
+    - database/migrations/2024_12_18_140828_create_investigaciones_table.php
+    - database/migrations/2024_12_18_140829_create_seguros_table.php
+    - app/Models/Acceso.php
+    - app/Models/Acciones.php
+    - app/Models/Avisos.php
+    - app/Models/Empresas.php
+    - app/Models/Estudios.php
+    - app/Models/Beneficiario.php
+    - app/Models/Conductasocial.php
+    - app/Models/Creditos.php
+    - app/Models/Despidos.php
+    - app/Models/Deudas.php
+    - app/Models/Documentacion.php
+    - app/Models/Domicilio.php
+    - app/Models/Entornohabitacional.php
+    - app/Models/Estructurafamiliar.php
+    - app/Models/Historiallaboral.php
+    - app/Models/Hobby.php
+    - app/Models/Incapacidad.php
+    - app/Models/Infolaboral.php
+    - app/Models/Infonavit.php
+    - app/Models/Nivelacademico.php
+    - app/Models/Periodo.php
+    - app/Models/Problemas.php
+    - app/Models/Redes.php
+    - app/Models/Refelaborales.php
+    - app/Models/Refepersonales.php
+    - app/Models/Resumen.php
+    - app/Models/Salud.php
+    - app/Models/Serviciomedico.php
+    - app/Models/Situacion.php
+    - app/Models/Bienesinmuebles.php
+    - app/Models/Conclusiones.php
+    - app/Models/Cuentasinversiones.php
+    - app/Models/Documentospresentados.php
+    - app/Models/Egresofamiliares.php
+    - app/Models/Entornos.php
+    - app/Models/Vehiculos.php
+    - app/Models/GradoEstudios.php
+    - app/Models/Ingresofamiliar.php
+    - app/Models/Investigaciones.php
+    - app/Models/Seguros.php
+    - tests/Feature/Http/Controllers/AccesoControllerTest.php
+    - tests/Feature/Http/Controllers/AccionesControllerTest.php
+    - tests/Feature/Http/Controllers/AvisosControllerTest.php
+    - tests/Feature/Http/Controllers/EmpresasControllerTest.php
+    - tests/Feature/Http/Controllers/EstudiosControllerTest.php
+    - tests/Feature/Http/Controllers/BeneficiarioControllerTest.php
+    - tests/Feature/Http/Controllers/ConductasocialControllerTest.php
+    - tests/Feature/Http/Controllers/CreditosControllerTest.php
+    - tests/Feature/Http/Controllers/DespidosControllerTest.php
+    - tests/Feature/Http/Controllers/DeudasControllerTest.php
+    - tests/Feature/Http/Controllers/DocumentacionControllerTest.php
+    - tests/Feature/Http/Controllers/DomicilioControllerTest.php
+    - tests/Feature/Http/Controllers/EntornohabitacionalControllerTest.php
+    - tests/Feature/Http/Controllers/EstructurafamiliarControllerTest.php
+    - tests/Feature/Http/Controllers/HistoriallaboralControllerTest.php
+    - tests/Feature/Http/Controllers/HobbyControllerTest.php
+    - tests/Feature/Http/Controllers/IncapacidadControllerTest.php
+    - tests/Feature/Http/Controllers/InfolaboralControllerTest.php
+    - tests/Feature/Http/Controllers/InfonavitControllerTest.php
+    - tests/Feature/Http/Controllers/NivelacademicoControllerTest.php
+    - tests/Feature/Http/Controllers/PeriodoControllerTest.php
+    - tests/Feature/Http/Controllers/ProblemasControllerTest.php
+    - tests/Feature/Http/Controllers/RedesControllerTest.php
+    - tests/Feature/Http/Controllers/RefelaboralesControllerTest.php
+    - tests/Feature/Http/Controllers/RefepersonalesControllerTest.php
+    - tests/Feature/Http/Controllers/ResumenControllerTest.php
+    - tests/Feature/Http/Controllers/SaludControllerTest.php
+    - tests/Feature/Http/Controllers/ServiciomedicoControllerTest.php
+    - tests/Feature/Http/Controllers/SituacionControllerTest.php
+    - tests/Feature/Http/Controllers/BienesinmueblesControllerTest.php
+    - tests/Feature/Http/Controllers/ConclusionesControllerTest.php
+    - tests/Feature/Http/Controllers/CuentasinversionesControllerTest.php
+    - tests/Feature/Http/Controllers/DocumentospresentadosControllerTest.php
+    - tests/Feature/Http/Controllers/EgresofamiliaresControllerTest.php
+    - tests/Feature/Http/Controllers/EntornosControllerTest.php
+    - tests/Feature/Http/Controllers/VehiculosControllerTest.php
+    - tests/Feature/Http/Controllers/GradoEstudiosControllerTest.php
+    - tests/Feature/Http/Controllers/IngresofamiliarControllerTest.php
+    - tests/Feature/Http/Controllers/InvestigacionesControllerTest.php
+    - tests/Feature/Http/Controllers/SegurosControllerTest.php
+    - app/Http/Requests/AccesoStoreRequest.php
+    - app/Http/Requests/AccesoUpdateRequest.php
+    - app/Http/Requests/BienesinmuebleStoreRequest.php
+    - app/Http/Requests/BienesinmuebleUpdateRequest.php
+    - app/Http/Requests/CuentasinversioneStoreRequest.php
+    - app/Http/Requests/CuentasinversioneUpdateRequest.php
+    - app/Http/Requests/DocumentospresentadoStoreRequest.php
+    - app/Http/Requests/DocumentospresentadoUpdateRequest.php
+    - app/Http/Requests/EgresofamiliareStoreRequest.php
+    - app/Http/Requests/EgresofamiliareUpdateRequest.php
+    - app/Http/Requests/IngresofamiliarStoreRequest.php
+    - app/Http/Requests/IngresofamiliarUpdateRequest.php
+    - app/Http/Requests/InvestigacioneStoreRequest.php
+    - app/Http/Requests/InvestigacioneUpdateRequest.php
+    - resources/views/acceso/index.blade.php
+    - resources/views/acceso/create.blade.php
+    - resources/views/acceso/show.blade.php
+    - resources/views/acceso/edit.blade.php
+    - resources/views/accione/index.blade.php
+    - resources/views/accione/create.blade.php
+    - resources/views/accione/show.blade.php
+    - resources/views/accione/edit.blade.php
+    - resources/views/aviso/index.blade.php
+    - resources/views/aviso/create.blade.php
+    - resources/views/aviso/show.blade.php
+    - resources/views/aviso/edit.blade.php
+    - resources/views/empresa/index.blade.php
+    - resources/views/empresa/create.blade.php
+    - resources/views/empresa/show.blade.php
+    - resources/views/empresa/edit.blade.php
+    - resources/views/estudio/index.blade.php
+    - resources/views/estudio/create.blade.php
+    - resources/views/estudio/show.blade.php
+    - resources/views/estudio/edit.blade.php
+    - resources/views/beneficiario/index.blade.php
+    - resources/views/beneficiario/create.blade.php
+    - resources/views/beneficiario/show.blade.php
+    - resources/views/beneficiario/edit.blade.php
+    - resources/views/conductasocial/index.blade.php
+    - resources/views/conductasocial/create.blade.php
+    - resources/views/conductasocial/show.blade.php
+    - resources/views/conductasocial/edit.blade.php
+    - resources/views/credito/index.blade.php
+    - resources/views/credito/create.blade.php
+    - resources/views/credito/show.blade.php
+    - resources/views/credito/edit.blade.php
+    - resources/views/despido/index.blade.php
+    - resources/views/despido/create.blade.php
+    - resources/views/despido/show.blade.php
+    - resources/views/despido/edit.blade.php
+    - resources/views/deuda/index.blade.php
+    - resources/views/deuda/create.blade.php
+    - resources/views/deuda/show.blade.php
+    - resources/views/deuda/edit.blade.php
+    - resources/views/documentacion/index.blade.php
+    - resources/views/documentacion/create.blade.php
+    - resources/views/documentacion/show.blade.php
+    - resources/views/documentacion/edit.blade.php
+    - resources/views/domicilio/index.blade.php
+    - resources/views/domicilio/create.blade.php
+    - resources/views/domicilio/show.blade.php
+    - resources/views/domicilio/edit.blade.php
+    - resources/views/entornohabitacional/index.blade.php
+    - resources/views/entornohabitacional/create.blade.php
+    - resources/views/entornohabitacional/show.blade.php
+    - resources/views/entornohabitacional/edit.blade.php
+    - resources/views/estructurafamiliar/index.blade.php
+    - resources/views/estructurafamiliar/create.blade.php
+    - resources/views/estructurafamiliar/show.blade.php
+    - resources/views/estructurafamiliar/edit.blade.php
+    - resources/views/historiallaboral/index.blade.php
+    - resources/views/historiallaboral/create.blade.php
+    - resources/views/historiallaboral/show.blade.php
+    - resources/views/historiallaboral/edit.blade.php
+    - resources/views/hobby/index.blade.php
+    - resources/views/hobby/create.blade.php
+    - resources/views/hobby/show.blade.php
+    - resources/views/hobby/edit.blade.php
+    - resources/views/incapacidad/index.blade.php
+    - resources/views/incapacidad/create.blade.php
+    - resources/views/incapacidad/show.blade.php
+    - resources/views/incapacidad/edit.blade.php
+    - resources/views/infolaboral/index.blade.php
+    - resources/views/infolaboral/create.blade.php
+    - resources/views/infolaboral/show.blade.php
+    - resources/views/infolaboral/edit.blade.php
+    - resources/views/infonavit/index.blade.php
+    - resources/views/infonavit/create.blade.php
+    - resources/views/infonavit/show.blade.php
+    - resources/views/infonavit/edit.blade.php
+    - resources/views/nivelacademico/index.blade.php
+    - resources/views/nivelacademico/create.blade.php
+    - resources/views/nivelacademico/show.blade.php
+    - resources/views/nivelacademico/edit.blade.php
+    - resources/views/periodo/index.blade.php
+    - resources/views/periodo/create.blade.php
+    - resources/views/periodo/show.blade.php
+    - resources/views/periodo/edit.blade.php
+    - resources/views/problema/index.blade.php
+    - resources/views/problema/create.blade.php
+    - resources/views/problema/show.blade.php
+    - resources/views/problema/edit.blade.php
+    - resources/views/rede/index.blade.php
+    - resources/views/rede/create.blade.php
+    - resources/views/rede/show.blade.php
+    - resources/views/rede/edit.blade.php
+    - resources/views/refelaborale/index.blade.php
+    - resources/views/refelaborale/create.blade.php
+    - resources/views/refelaborale/show.blade.php
+    - resources/views/refelaborale/edit.blade.php
+    - resources/views/refepersonale/index.blade.php
+    - resources/views/refepersonale/create.blade.php
+    - resources/views/refepersonale/show.blade.php
+    - resources/views/refepersonale/edit.blade.php
+    - resources/views/resuman/index.blade.php
+    - resources/views/resuman/create.blade.php
+    - resources/views/resuman/show.blade.php
+    - resources/views/resuman/edit.blade.php
+    - resources/views/salud/index.blade.php
+    - resources/views/salud/create.blade.php
+    - resources/views/salud/show.blade.php
+    - resources/views/salud/edit.blade.php
+    - resources/views/serviciomedico/index.blade.php
+    - resources/views/serviciomedico/create.blade.php
+    - resources/views/serviciomedico/show.blade.php
+    - resources/views/serviciomedico/edit.blade.php
+    - resources/views/situacion/index.blade.php
+    - resources/views/situacion/create.blade.php
+    - resources/views/situacion/show.blade.php
+    - resources/views/situacion/edit.blade.php
+    - resources/views/bienesinmueble/index.blade.php
+    - resources/views/bienesinmueble/create.blade.php
+    - resources/views/bienesinmueble/show.blade.php
+    - resources/views/bienesinmueble/edit.blade.php
+    - resources/views/conclusione/index.blade.php
+    - resources/views/conclusione/create.blade.php
+    - resources/views/conclusione/show.blade.php
+    - resources/views/conclusione/edit.blade.php
+    - resources/views/cuentasinversione/index.blade.php
+    - resources/views/cuentasinversione/create.blade.php
+    - resources/views/cuentasinversione/show.blade.php
+    - resources/views/cuentasinversione/edit.blade.php
+    - resources/views/documentospresentado/index.blade.php
+    - resources/views/documentospresentado/create.blade.php
+    - resources/views/documentospresentado/show.blade.php
+    - resources/views/documentospresentado/edit.blade.php
+    - resources/views/egresofamiliare/index.blade.php
+    - resources/views/egresofamiliare/create.blade.php
+    - resources/views/egresofamiliare/show.blade.php
+    - resources/views/egresofamiliare/edit.blade.php
+    - resources/views/entorno/index.blade.php
+    - resources/views/entorno/create.blade.php
+    - resources/views/entorno/show.blade.php
+    - resources/views/entorno/edit.blade.php
+    - resources/views/vehiculo/index.blade.php
+    - resources/views/vehiculo/create.blade.php
+    - resources/views/vehiculo/show.blade.php
+    - resources/views/vehiculo/edit.blade.php
+    - resources/views/gradoEstudio/index.blade.php
+    - resources/views/gradoEstudio/create.blade.php
+    - resources/views/gradoEstudio/show.blade.php
+    - resources/views/gradoEstudio/edit.blade.php
+    - resources/views/ingresofamiliar/index.blade.php
+    - resources/views/ingresofamiliar/create.blade.php
+    - resources/views/ingresofamiliar/show.blade.php
+    - resources/views/ingresofamiliar/edit.blade.php
+    - resources/views/investigacione/index.blade.php
+    - resources/views/investigacione/create.blade.php
+    - resources/views/investigacione/show.blade.php
+    - resources/views/investigacione/edit.blade.php
+    - resources/views/seguro/index.blade.php
+    - resources/views/seguro/create.blade.php
+    - resources/views/seguro/show.blade.php
+    - resources/views/seguro/edit.blade.php
+updated:
+    - routes/web.php
+models:
+    Acceso: { idUsuario: 'string:250', acceso: 'string:250' }
+    Acciones: { idUsuario: 'string:250', accion: 'string:250' }
+    Avisos: { titulo: 'string:250', mensaje: longtext, dirigido: 'string:250', tipo: longtext, estatus: longtext, idUsuario: 'string:250' }
+    Empresas: { nombre: 'string:250', direccion: longtext, telefono: 'string:250', correo: 'string:250', contacto: 'string:250', paginaWeb: 'string:250', idUsuario: longtext, comentarios: longtext, archivo: longtext }
+    Estudios: { idUsuario: 'string:250', idEmpresa: 'string:250', nombreCandidato: 'string:250', apePaterno: 'string:250', apeMaterno: 'string:250', puesto: 'string:250', fechaSolicitud: 'string:250', valida: 'string:250', realizo: 'string:250', foto: longtext, estatus: 'string:250', rfc: 'string:250', curp: 'string:250', archivo: longtext, proceso: 'string:250', fechaTermino: 'string:250', motivoCancelacion: longtext, fechaCancelacion: 'string:250', usuarioCancela: 'string:250', encuestador: 'string:250', fechaCita: 'string:250', horacita: 'string:250', nss: 'string:250', tiposervicio: 'string:250', telefono: 'string:250', correo: 'string:250', verdoc: 'string:250', encuViaticos: 'string:250', encuTel: 'string:250', encuDireccion: 'string:250', estatusper: 'string:250', sexo: 'string:250', edad: 'string:250', estadoCivil: 'string:250', lugarNacimiento: 'string:250', fechaNacimiento: 'string:250', escolaridad: 'string:250', llamadaEmergencia: 'string:250', parentesco: 'string:250', telEmergencia: 'string:250', hijos: 'string:250', nacionalidad: 'string:250', viveCon: 'string:250', direccion: 'string:250', celular: 'string:250', otroContacto: 'string:250', infonavit: 'string:250', fonacot: 'string:250', cv: longtext, img: longtext }
+    Beneficiario: { idEstudio: 'string:250', idUsuario: 'string:250', parentesco: 'string:250', nombre: 'string:250', edad: 'string:250', ocupacion: 'string:250', donde: 'string:250', calle: 'string:250', numero: 'string:250', colonia: 'string:250', delegacion: 'string:250', ciudad: 'string:250', estado: 'string:250', cp: 'string:250', tiempo: 'string:250', telefono: 'string:250' }
+    Conductasocial: { idEstudio: 'string:250', quienEstuvo: 'string:250', conductaEntrevistado: 'string:250', relacionVecinos: 'string:250', pertenecegrupo: 'string:250', problemasLegales: 'string:250', familiarRecluido: 'string:250', familiaresAdentro: 'string:250', idUsuario: 'string:250' }
+    Creditos: { fecha: 'string:250', entidad: 'string:250', monto: 'string:250', total: 'string:250', estatus: 'string:250', comentario: longtext, endeudamiento: 'string:250', hipoteca: 'string:250', score: 'string:250', idUsuario: 'string:250', idEstudio: 'string:250' }
+    Despidos: { nombre: 'string:250', periodo: 'string:250', motivo: longtext, idUsuario: 'string:250', idEstudio: 'string:250' }
+    Deudas: { idEstudio: 'string:250', cuentaDeuda: 'string:250', conQuien: 'string:250', monto: 'string:250', abonoMensual: 'string:250', apagaren: 'string:250', cuentaauto: 'string:250', modelo: 'string:250', placas: 'string:250', valorAuto: 'string:250', propiedad: 'string:250', ubicacon: 'string:250', idUsuario: 'string:250', tarjetaCredito: 'string:250', bancotarjetaCredito: 'string:250', creditoAutorizado: 'string:250', tarjetaTienda: 'string:250', conquienTienda: 'string:250', creditoAutorizadotienda: 'string:250', observaciones: longtext }
+    Documentacion: { idEstudio: 'string:250', titulo: 'string:250', observaciones: longtext, archivo: longtext, idUsuario: 'string:250', folio: 'string:250', seccion: 'string:250', tipo: 'string:250' }
+    Domicilio: { idEstudio: 'string:250', delegacionMunicipio: 'string:250', ciudad: 'string:250', estado: 'string:250', cp: 'string:250', tiempoResindir: 'string:250', tel1: 'string:250', tel2: 'string:250', tel3: 'string:250', cel1: 'string:250', cel2: 'string:250', cel3: 'string:250', calle: 'string:250', numero: 'string:250', colonia: 'string:250', idUsuario: 'string:250' }
+    Entornohabitacional: { idEstudio: 'string:250', tipoZona: 'string:250', tipoVivienda: 'string:250', edificacion: 'string:250', titular: 'string:250', parentesco: 'string:250', numRecamaras: 'string:250', sala: 'string:250', comedor: 'string:250', cocina: 'string:250', garaje: 'string:250', jardin: 'string:250', nomBano: 'string:250', tipobano: 'string:250', viasdeacceso: 'string:250', medioTransporte: 'string:250', tiempoServicio: 'string:250', entreCalles: 'string:250', color: 'string:250', porton: 'string:250', referencias: 'string:250', observaciones: longtext, idUSuario: 'string:250', agua: 'string:250', luz: 'string:250', pavimentacion: 'string:250', telefono: 'string:250', transporte: 'string:250', vigilancia: 'string:250', areas: 'string:250', drenaje: 'string:250', paredes: 'string:250', techos: 'string:250', pisos: 'string:250', telNormal: 'string:250', telPlasma: 'string:250', estereo: 'string:250', dvd: 'string:250', blueray: 'string:250', estufa: 'string:250', horno: 'string:250', lavadora: 'string:250', centrolavado: 'string:250', refrigerador: 'string:250', computadora: 'string:250', extensionInmueble: 'string:250', condicionesInmueble: 'string:250', condicionesMobiliario: 'string:250', orden: 'string:250', limpieza: 'string:250', delincuencia: 'string:250', vandalismo: 'string:250', drogadiccion: 'string:250', alcoholismo: 'string:250', estudio: 'string:250', zotehuela: 'string:250', patio: 'string:250', internet: 'string:250', renta: 'string:250', regadera: 'string:250' }
+    Estructurafamiliar: { idEstudio: 'string:250', familiar: 'string:250', edad: 'string:250', ocupacion: 'string:250', laboraEstudia: 'string:250', calle: 'string:250', numero: 'string:250', colonia: 'string:250', delegacionMunicipio: 'string:250', ciudad: 'string:250', estado: 'string:250', cpde: 'string:250', tiempoReside: 'string:250', tel1: 'string:250', idUsuario: 'string:250' }
+    Historiallaboral: { ultimo: 'string:250', vida: 'string:250', nusemana: 'string:250', porcentaje: 'string:250', numeroempleadores: 'string:250', progresion: 'string:250', finiquito: 'string:250', liquidacion: 'string:250', aguinaldo: 'string:250', vacaciones: 'string:250', comentarios: 'string:250', idUsuario: 'string:250', idEstudio: 'string:250' }
+    Hobby: { idEstudio: 'string:250', deportes: 'string:250', cual: 'string:250', frecuencia: 'string:250', pasatiempos: 'string:250', otros: 'string:250', idUsuario: 'string:250' }
+    Incapacidad: { nombre: 'string:250', periodo: 'string:250', idUsuario: 'string:250', idEstudio: 'string:250', motivo: longtext }
+    Infolaboral: { laboral: 'string:250', campol: 'string:250', fechal: 'string:250', acuerdol: 'string:250', civiles: 'string:250', campoc: 'string:250', fechac: 'string:250', acuerdoc: 'string:250', familiares: 'string:250', campof: 'string:250', fechaf: 'string:250', acuerdof: 'string:250', penales: 'string:250', campop: 'string:250', fechap: 'string:250', acuerdop: 'string:250', administrativa: 'string:250', campoa: 'string:250', fechaa: 'string:250', acuerdoa: 'string:250', internacional: 'string:250', campoi: 'string:250', fechai: 'string:250', acuerdoi: 'string:250', sat: 'string:250', camposat: 'string:250', fechasat: 'string:250', acuerdosat: 'string:250', idUsuario: 'string:250', idEstudio: 'string:250', comentariol: longtext, comentarioc: longtext, comentariof: longtext, comentariop: longtext, comentarioa: longtext, comentarioi: longtext, comentariosat: longtext }
+    Infonavit: { estatus: 'string:250', puntos: 'string:250', subcuenta: 'string:250', maximo: 'string:250', hipoteca: 'string:250', idEstudio: 'string:250', idUsuario: 'string:250' }
+    Nivelacademico: { ultimo: 'string:250', periodo: 'string:250', profesional: 'string:250', cedula: 'string:250', especialidad: 'string:250', caso: 'string:250', idUsuario: 'string:250', idEstudio: 'string:250', otros: longtext }
+    Periodo: { inicio: 'string:250', termino: 'string:250', motivo: longtext, comentarios: longtext, idUsuario: 'string:250', idEstudio: 'string:250' }
+    Problemas: { nombre: 'string:250', informante: 'string:250', comentarios: longtext, idUsuario: 'string:250', idEstudio: 'string:250', dato: 'string:250' }
+    Redes: { idEstudio: 'string:250', facebook: 'string:250', twitter: 'string:250', instagram: 'string:250', linkedin: 'string:250', idUsuario: 'string:250' }
+    Refelaborales: { idEstudio: 'string:250', empresa: 'string:250', giro: 'string:250', direccion: 'string:250', telefono: 'string:250', fechaIngreso: 'string:250', fechaEgreso: 'string:250', puesto: 'string:250', area: 'string:250', salario: 'string:250', motivoSalida: longtext, quienProporciono: 'string:250', puestoProporciono: 'string:250', calificacion: 'string:250', demanda: 'string:250', volveria: 'string:250', porque: longtext, observaciones: longtext, idUsuario: 'string:250', candidatoes: 'string:250', periodosInactivo: 'string:250' }
+    Refepersonales: { idEstudio: 'string:250', nombre: 'string:250', tiempoConocerlo: 'string:250', relacion: 'string:250', domicilio: 'string:250', tel1: 'string:250', opinion: longtext, idUsuario: 'string:250' }
+    Resumen: { idEstudio: 'string:250', social: 'string:250', escolar: 'string:250', economica: 'string:250', laboral: 'string:250', actitud: 'string:250', observaciones: longtext, recomendacion: longtext, idUsuario: 'string:250', observacionesPersonal: longtext, observacionesLaboral: longtext, cali: 'string:250' }
+    Salud: { idEstudio: 'string:250', droga: 'string:250', cualDroga: 'string:250', fuma: 'string:250', frecuenciaFuma: 'string:250', bebidas: 'string:250', frecuenciaBebidas: 'string:250', cafe: 'string:250', frecuenciaCafe: 'string:250', lentes: 'string:250', diagnostico: 'string:250', intervenciones: 'string:250', dequeintervenciones: 'string:250', enfermedadesCronicas: 'string:250', dequeCronicas: 'string:250', hereditarias: 'string:250', cualHereditarias: 'string:250', quienConstante: 'string:250', porqueConstante: 'string:250', ultimaVez: 'string:250', considera: 'string:250', porqueConsidera: 'string:250', deporte: 'string:250', pasatiempo: 'string:250', ultimavezDeque: 'string:250', embarazo: 'string:250', idUsuario: 'string:250' }
+    Serviciomedico: { idUsuario: 'string:250', infonavit: 'string:250', clinicai: 'string:250', incidentei: 'string:250', tipoi: 'string:250', imss: 'string:250', clinicaim: 'string:250', incidenteim: 'string:250', tipoim: 'string:250', issste: 'string:250', clinicais: 'string:250', incidenteis: 'string:250', tipois: 'string:250', seguro: 'string:250', clinicase: 'string:250', incidentese: 'string:250', tipose: 'string:250', privado: 'string:250', aseguradora: 'string:250', incidentepri: 'string:250', tipopri: 'string:250', issemym: 'string:250', clinicaisse: 'string:250', incidenteisse: 'string:250', tipoisse: 'string:250', idEstudio: 'string:250', notiene: 'string:250' }
+    Situacion: { idEstudio: 'string:250', nombre: 'string:250', parentesco: 'string:250', salario: 'string:250', ingreso: 'string:250', concepto: 'string:250', egresos: 'string:250', observaciones: longtext, superavit: 'string:250', idUsuario: 'string:250' }
+    Bienesinmuebles: { tipo: 'string:250', ubicacion: 'string:250', valor: 'string:250', pagado: 'string:250', abono: 'string:250', idUsuario: 'string:250' }
+    Conclusiones: { acercaCandidato: 'string:250', acercaFamilia: 'string:250', conclucionesEntrevistador: 'string:250', participacion: 'string:250', entorno: 'string:250', referencias: 'string:250', comentariosGenerales: 'string:250', analisisVerificacion: 'string:250', atendio: 'string:250', presento: 'string:250', documentacionCompartida: 'string:250', referenciasPersonales: 'string:250', estatusfinal: 'string:250', idUsuario: 'string:250' }
+    Cuentasinversiones: { institucion: 'string:250', tipo: 'string:250', objetivo: 'string:250', deposito: 'string:250', idUsuario: 'string:250' }
+    Documentospresentados: { documento: 'string:250', ine: 'string:250', comprobante: 'string:250', acta: 'string:250', cartas: 'string:250', aviso: 'string:250', comentarios: longtext, idUsuario: 'string:250' }
+    Egresofamiliares: { ahorro: 'string:250', alimentacion: 'string:250', transporte: 'string:250', seguros: 'string:250', luz: 'string:250', tv: 'string:250', gas: 'string:250', celular: 'string:250', agua: 'string:250', total: 'string:250', comentarios: longtext, idUsuario: 'string:250' }
+    Entornos: { comentarios: longtext, tiempoVivir: 'string:250', calle: 'string:250', numero: 'string:250', interior: 'string:250', colonia: 'string:250', entre: 'string:250', delegacionMunicpio: 'string:250', estado: 'string:250', cp: 'string:250', color: 'string:250', tipo: 'string:250', dondeEs: 'string:250', ubicación: 'string:250', idUsuario: 'string:250' }
+    Vehiculos: { marca: 'string:250', modelo: 'string:250', valor: 'string:250', pagado: 'string:250', abono: 'string:250', idUsuario: 'string:250' }
+    GradoEstudios: { grado: 'string:250', nombre: 'string:250', lugar: 'string:250', periodo: 'string:250', documento: 'string:250', folio: 'string:250', idUsuario: 'string:250' }
+    Ingresofamiliar: { quien: 'string:250', fuente: 'string:250', monto: 'string:250', total: 'string:250', comentarios: longtext, idUsuario: 'string:250' }
+    Investigaciones: { cuentaConstancia: 'string:250', proporciono: 'string:250', casoNo: 'string:250', demandado: 'string:250', actualmente: 'string:250', estabilidad: 'string:250', inactividad: 'string:250', registoPatronal: 'string:250', referenciayPeriodos: 'string:250', dosEmpleos: 'string:250', ausentismo: 'string:250', abandono: 'string:250', desempenoRegular: 'string:250', omitio: 'string:250', informacion: 'string:250', referencias: 'string:250', confiable: 'string:250', comentarios: longtext, notasLegales: 'string:250', idUsuario: 'string:250' }
+    Seguros: { institucion: 'string:250', tipo: 'string:250', forma: 'string:250', prima: 'string:250', vigencia: 'string:250', idUsuario: 'string:250' }

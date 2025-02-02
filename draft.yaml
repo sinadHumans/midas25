@@ -1,0 +1,657 @@
+models:
+  Acceso:
+    idUsuario: string:250
+    acceso: string:250
+  Acciones:
+    idUsuario: string:250
+    accion: string:250
+  Avisos:
+    titulo: string:250
+    mensaje: longtext
+    dirigido: string:250
+    tipo: longtext
+    estatus: longtext
+    idUsuario: string:250
+  Empresas:
+    nombre: string:250
+    direccion: longtext
+    telefono: string:250
+    correo: string:250
+    contacto: string:250
+    paginaWeb: string:250
+    idUsuario: longtext
+    comentarios: longtext
+    archivo: longtext
+  Estudios:
+    idUsuario: string:250
+    idEmpresa: string:250
+    nombreCandidato: string:250
+    apePaterno: string:250
+    apeMaterno: string:250
+    puesto: string:250
+    fechaSolicitud: string:250
+    valida: string:250
+    realizo: string:250
+    foto: longtext
+    estatus: string:250
+    rfc: string:250
+    curp: string:250
+    archivo: longtext
+    proceso: string:250
+    fechaTermino: string:250
+    motivoCancelacion: longtext
+    fechaCancelacion: string:250
+    usuarioCancela: string:250
+    encuestador: string:250
+    fechaCita: string:250
+    horacita: string:250
+    nss: string:250
+    tiposervicio: string:250
+    telefono: string:250
+    correo: string:250
+    verdoc: string:250
+    encuViaticos: string:250
+    encuTel: string:250
+    encuDireccion: string:250
+    estatusper: string:250
+    sexo: string:250
+    edad: string:250
+    estadoCivil: string:250
+    lugarNacimiento: string:250
+    fechaNacimiento: string:250
+    escolaridad: string:250
+    llamadaEmergencia: string:250
+    parentesco: string:250
+    telEmergencia: string:250
+    hijos: string:250
+    nacionalidad: string:250
+    viveCon: string:250
+    direccion: string:250
+    celular: string:250
+    otroContacto: string:250
+    infonavit: string:250
+    fonacot: string:250
+    cv: longtext
+    img: longtext
+  Beneficiario:
+    idEstudio: string:250
+    idUsuario: string:250
+    parentesco: string:250
+    nombre: string:250
+    edad: string:250
+    ocupacion: string:250
+    donde: string:250
+    calle: string:250
+    numero: string:250
+    colonia: string:250
+    delegacion: string:250
+    ciudad: string:250
+    estado: string:250
+    cp: string:250
+    tiempo: string:250
+    telefono: string:250
+  Conductasocial:
+    idEstudio: string:250
+    quienEstuvo: string:250
+    conductaEntrevistado: string:250
+    relacionVecinos: string:250
+    pertenecegrupo: string:250
+    problemasLegales: string:250
+    familiarRecluido: string:250
+    familiaresAdentro: string:250
+    idUsuario: string:250
+  Creditos:
+    fecha: string:250
+    entidad: string:250
+    monto: string:250
+    total: string:250
+    estatus: string:250
+    comentario: longtext
+    endeudamiento: string:250
+    hipoteca: string:250
+    score: string:250
+    idUsuario: string:250
+    idEstudio: string:250
+  Despidos:
+    nombre: string:250
+    periodo: string:250
+    motivo: longtext
+    idUsuario: string:250
+    idEstudio: string:250
+  Deudas:
+    idEstudio: string:250
+    cuentaDeuda: string:250
+    conQuien: string:250
+    monto: string:250
+    abonoMensual: string:250
+    apagaren: string:250
+    cuentaauto: string:250
+    modelo: string:250
+    placas: string:250
+    valorAuto: string:250
+    propiedad: string:250
+    ubicacon: string:250
+    idUsuario: string:250
+    tarjetaCredito: string:250
+    bancotarjetaCredito: string:250
+    creditoAutorizado: string:250
+    tarjetaTienda: string:250
+    conquienTienda: string:250
+    creditoAutorizadotienda: string:250
+    observaciones: longtext
+  Documentacion:
+    idEstudio: string:250
+    titulo: string:250
+    observaciones: longtext
+    archivo: longtext
+    idUsuario: string:250
+    folio: string:250
+    seccion: string:250
+    tipo: string:250
+  Domicilio:
+    idEstudio: string:250
+    delegacionMunicipio: string:250
+    ciudad: string:250
+    estado: string:250
+    cp: string:250
+    tiempoResindir: string:250
+    tel1: string:250
+    tel2: string:250
+    tel3: string:250
+    cel1: string:250
+    cel2: string:250
+    cel3: string:250
+    calle: string:250
+    numero: string:250
+    colonia: string:250
+    idUsuario: string:250
+  Entornohabitacional:
+    idEstudio: string:250
+    tipoZona: string:250
+    tipoVivienda: string:250
+    edificacion: string:250
+    titular: string:250
+    parentesco: string:250
+    numRecamaras: string:250
+    sala: string:250
+    comedor: string:250
+    cocina: string:250
+    garaje: string:250
+    jardin: string:250
+    nomBano: string:250
+    tipobano: string:250
+    viasdeacceso: string:250
+    medioTransporte: string:250
+    tiempoServicio: string:250
+    entreCalles: string:250
+    color: string:250
+    porton: string:250
+    referencias: string:250
+    observaciones: longtext
+    idUSuario: string:250
+    agua: string:250
+    luz: string:250
+    pavimentacion: string:250
+    telefono: string:250
+    transporte: string:250
+    vigilancia: string:250
+    areas: string:250
+    drenaje: string:250
+    paredes: string:250
+    techos: string:250
+    pisos: string:250
+    telNormal: string:250
+    telPlasma: string:250
+    estereo: string:250
+    dvd: string:250
+    blueray: string:250
+    estufa: string:250
+    horno: string:250
+    lavadora: string:250
+    centrolavado: string:250
+    refrigerador: string:250
+    computadora: string:250
+    extensionInmueble: string:250
+    condicionesInmueble: string:250
+    condicionesMobiliario: string:250
+    orden: string:250
+    limpieza: string:250
+    delincuencia: string:250
+    vandalismo: string:250
+    drogadiccion: string:250
+    alcoholismo: string:250
+    estudio: string:250
+    zotehuela: string:250
+    patio: string:250
+    internet: string:250
+    renta: string:250
+    regadera: string:250
+  Estructurafamiliar:
+    idEstudio: string:250
+    familiar: string:250
+    edad: string:250
+    ocupacion: string:250
+    laboraEstudia: string:250
+    calle: string:250
+    numero: string:250
+    colonia: string:250
+    delegacionMunicipio: string:250
+    ciudad: string:250
+    estado: string:250
+    cpde: string:250
+    tiempoReside: string:250
+    tel1: string:250
+    idUsuario: string:250
+  Historiallaboral:
+    ultimo: string:250
+    vida: string:250
+    nusemana: string:250
+    porcentaje: string:250
+    numeroempleadores: string:250
+    progresion: string:250
+    finiquito: string:250
+    liquidacion: string:250
+    aguinaldo: string:250
+    vacaciones: string:250
+    comentarios: string:250
+    idUsuario: string:250
+    idEstudio: string:250
+  Hobby:
+    idEstudio: string:250
+    deportes: string:250
+    cual: string:250
+    frecuencia: string:250
+    pasatiempos: string:250
+    otros: string:250
+    idUsuario: string:250
+  Incapacidad:
+    nombre: string:250
+    periodo: string:250
+    idUsuario: string:250
+    idEstudio: string:250
+    motivo: longtext
+  Infolaboral:
+    laboral: string:250
+    campol: string:250
+    fechal: string:250
+    acuerdol: string:250
+    civiles: string:250
+    campoc: string:250
+    fechac: string:250
+    acuerdoc: string:250
+    familiares: string:250
+    campof: string:250
+    fechaf: string:250
+    acuerdof: string:250
+    penales: string:250
+    campop: string:250
+    fechap: string:250
+    acuerdop: string:250
+    administrativa: string:250
+    campoa: string:250
+    fechaa: string:250
+    acuerdoa: string:250
+    internacional: string:250
+    campoi: string:250
+    fechai: string:250
+    acuerdoi: string:250
+    sat: string:250
+    camposat: string:250
+    fechasat: string:250
+    acuerdosat: string:250
+    idUsuario: string:250
+    idEstudio: string:250
+    comentariol: longtext
+    comentarioc: longtext
+    comentariof: longtext
+    comentariop: longtext
+    comentarioa: longtext
+    comentarioi: longtext
+    comentariosat: longtext
+  Infonavit:
+    estatus: string:250
+    puntos: string:250
+    subcuenta: string:250
+    maximo: string:250
+    hipoteca: string:250
+    idEstudio: string:250
+    idUsuario: string:250
+  Nivelacademico:
+    ultimo: string:250
+    periodo: string:250
+    profesional: string:250
+    cedula: string:250
+    especialidad: string:250
+    caso: string:250
+    idUsuario: string:250
+    idEstudio: string:250
+    otros: longtext
+  Periodo:
+    inicio: string:250
+    termino: string:250
+    motivo: longtext
+    comentarios: longtext
+    idUsuario: string:250
+    idEstudio: string:250
+  Problemas:
+    nombre: string:250
+    informante: string:250
+    comentarios: longtext
+    idUsuario : string:250
+    idEstudio: string:250
+    dato: string:250
+  Redes:
+    idEstudio: string:250
+    facebook: string:250
+    twitter: string:250
+    instagram: string:250
+    linkedin: string:250
+    idUsuario: string:250
+  Refelaborales:
+    idEstudio: string:250
+    empresa: string:250
+    giro: string:250
+    direccion: string:250
+    telefono: string:250
+    fechaIngreso: string:250
+    fechaEgreso: string:250
+    puesto: string:250
+    area: string:250
+    salario: string:250
+    motivoSalida: longtext
+    quienProporciono: string:250
+    puestoProporciono: string:250
+    calificacion: string:250
+    demanda: string:250
+    volveria: string:250
+    porque: longtext
+    observaciones: longtext
+    idUsuario: string:250
+    candidatoes: string:250
+    periodosInactivo: string:250
+  Refepersonales:
+    idEstudio: string:250
+    nombre: string:250
+    tiempoConocerlo: string:250
+    relacion: string:250
+    domicilio: string:250
+    tel1: string:250
+    opinion: longtext
+    idUsuario: string:250
+  Resumen:
+    idEstudio: string:250
+    social: string:250
+    escolar: string:250
+    economica: string:250
+    laboral: string:250
+    actitud: string:250
+    observaciones: longtext
+    recomendacion: longtext
+    idUsuario: string:250
+    observacionesPersonal: longtext
+    observacionesLaboral: longtext
+    cali: string:250
+  Salud:
+    idEstudio: string:250
+    droga: string:250
+    cualDroga: string:250
+    fuma: string:250
+    frecuenciaFuma: string:250
+    bebidas: string:250
+    frecuenciaBebidas: string:250
+    cafe: string:250
+    frecuenciaCafe: string:250
+    lentes: string:250
+    diagnostico: string:250
+    intervenciones: string:250
+    dequeintervenciones: string:250
+    enfermedadesCronicas: string:250
+    dequeCronicas: string:250
+    hereditarias: string:250
+    cualHereditarias: string:250
+    quienConstante: string:250
+    porqueConstante: string:250
+    ultimaVez: string:250
+    considera: string:250
+    porqueConsidera: string:250
+    deporte: string:250
+    pasatiempo: string:250
+    ultimavezDeque: string:250
+    embarazo: string:250
+    idUsuario: string:250
+  Serviciomedico:
+    idUsuario: string:250
+    infonavit: string:250
+    clinicai: string:250
+    incidentei: string:250
+    tipoi: string:250
+    imss: string:250
+    clinicaim: string:250
+    incidenteim: string:250
+    tipoim: string:250
+    issste: string:250
+    clinicais: string:250
+    incidenteis: string:250
+    tipois: string:250
+    seguro: string:250
+    clinicase: string:250
+    incidentese: string:250
+    tipose: string:250
+    privado: string:250
+    aseguradora: string:250
+    incidentepri: string:250
+    tipopri: string:250
+    issemym: string:250
+    clinicaisse: string:250
+    incidenteisse: string:250
+    tipoisse: string:250
+    idEstudio: string:250
+    notiene: string:250
+  Situacion:
+    idEstudio: string:250
+    nombre: string:250
+    parentesco: string:250
+    salario: string:250
+    ingreso: string:250
+    concepto: string:250
+    egresos: string:250
+    observaciones: longtext
+    superavit: string:250
+    idUsuario: string:250
+  Bienesinmuebles:
+    tipo: string:250
+    ubicacion: string:250
+    valor: string:250
+    pagado: string:250
+    abono: string:250
+    idUsuario: string:250
+  Conclusiones:
+    acercaCandidato: string:250
+    acercaFamilia: string:250
+    conclucionesEntrevistador: string:250
+    participacion: string:250
+    entorno: string:250
+    referencias: string:250
+    comentariosGenerales: string:250
+    analisisVerificacion: string:250
+    atendio: string:250
+    presento: string:250
+    documentacionCompartida: string:250
+    referenciasPersonales: string:250
+    estatusfinal: string:250
+    idUsuario: string:250
+  Cuentasinversiones:
+    institucion: string:250
+    tipo: string:250
+    objetivo: string:250
+    deposito: string:250
+    idUsuario: string:250
+  Documentospresentados:
+    documento: string:250
+    ine: string:250
+    comprobante: string:250
+    acta: string:250
+    cartas: string:250
+    aviso: string:250
+    comentarios: longtext
+    idUsuario: string:250
+  Egresofamiliares:
+    ahorro: string:250
+    alimentacion: string:250
+    transporte: string:250
+    seguros: string:250
+    luz: string:250
+    tv: string:250
+    gas: string:250
+    celular: string:250
+    agua: string:250
+    total: string:250
+    comentarios: longtext
+    idUsuario: string:250
+  Entornos:
+    comentarios: longtext
+    tiempoVivir: string:250
+    calle: string:250
+    numero: string:250
+    interior: string:250
+    colonia: string:250
+    entre: string:250
+    delegacionMunicpio: string:250
+    estado: string:250
+    cp: string:250
+    color: string:250
+    tipo: string:250
+    dondeEs: string:250
+    ubicación: string:250
+    idUsuario: string:250
+  Vehiculos:
+    marca: string:250
+    modelo: string:250
+    valor: string:250
+    pagado: string:250
+    abono: string:250
+    idUsuario: string:250
+  GradoEstudios:
+    grado: string:250
+    nombre: string:250
+    lugar: string:250
+    periodo: string:250
+    documento: string:250
+    folio: string:250
+    idUsuario: string:250
+  Ingresofamiliar:
+    quien: string:250
+    fuente: string:250
+    monto: string:250
+    total: string:250
+    comentarios: longtext
+    idUsuario: string:250
+  Investigaciones:
+    cuentaConstancia: string:250
+    proporciono: string:250
+    casoNo: string:250
+    demandado: string:250
+    actualmente: string:250
+    estabilidad: string:250
+    inactividad: string:250
+    registoPatronal: string:250
+    referenciayPeriodos: string:250
+    dosEmpleos: string:250
+    ausentismo: string:250
+    abandono: string:250
+    desempenoRegular: string:250
+    omitio: string:250
+    informacion: string:250
+    referencias: string:250
+    confiable: string:250
+    comentarios: longtext
+    notasLegales: string:250
+    idUsuario: string:250
+  Seguros:
+    institucion: string:250
+    tipo: string:250
+    forma: string:250
+    prima: string:250
+    vigencia: string:250
+    idUsuario: string:250
+controllers:
+  Acceso:
+    resource
+  Acciones:
+    resource
+  Avisos:
+    resource
+  Empresas:
+    resource
+  Estudios:
+    resource
+  Beneficiario:
+    resource
+  Conductasocial:
+    resource
+  Creditos:
+    resource
+  Despidos:
+    resource
+  Deudas:
+    resource
+  Documentacion:
+    resource
+  Domicilio:
+    resource
+  Entornohabitacional:
+    resource
+  Estructurafamiliar:
+    resource
+  Historiallaboral:
+    resource
+  Hobby:
+    resource
+  Incapacidad:
+    resource
+  Infolaboral:
+    resource
+  Infonavit:
+    resource
+  Nivelacademico:
+    resource
+  Periodo:
+    resource
+  Problemas:
+    resource
+  Redes:
+    resource
+  Refelaborales:
+    resource
+  Refepersonales:
+    resource
+  Resumen:
+    resource
+  Salud:
+    resource
+  Serviciomedico:
+    resource
+  Situacion:
+    resource
+  Bienesinmuebles:
+    resource
+  Conclusiones:
+    resource
+  Cuentasinversiones:
+   resource
+  Documentospresentados:
+    resource
+  Egresofamiliares:
+    resource
+  Entornos:
+    resource
+  Vehiculos:
+    resource
+  GradoEstudios:
+    resource
+  Ingresofamiliar:
+    resource
+  Investigaciones:
+    resource
+  Seguros:
+    resource
